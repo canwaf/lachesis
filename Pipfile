@@ -15,6 +15,7 @@ requests = "*"
 cachecontrol = "*"
 openpyxl = "*"
 lockfile = "*"
+statsmodels = "*"
 
 [dev-packages]
 pylint = "*"

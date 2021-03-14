@@ -7,4 +7,5 @@ ENV PIP_NO_CACHE_DIR=false
 RUN pip install pipenv
 RUN pipenv install --system
 RUN jupyter sparqlkernel install
-RUN apt-get update && apt-get install gnupg2 -y
+RUN apt update && apt install gnupg2 -y
+RUN apt install jq -y
